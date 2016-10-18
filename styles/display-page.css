@@ -1,23 +1,35 @@
 main
 {
 width:800px;
+height: 500px;
+background: yellow;
+margin: auto;
 }
 .box
 {
 	border:1px black solid;
 	box-sizing: border-box;
+	margin: 0;
 }
 .fifty
 {
-	width:45%;
+	width: 50%;
 	height: 200px;
-	display: inline-block;
 }
 .thirty
 {
-	width:45%;
 	width: 33.33%;
 	height: 300px;
+}
+.top{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.bottom{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
 }
 .green
 {
